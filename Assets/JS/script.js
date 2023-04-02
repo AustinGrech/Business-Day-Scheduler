@@ -12,10 +12,10 @@ $(document).ready(function() {
     event.preventDefault();
 
   // Get the id of the parent time-block
-    var timeBlockId = $('.time-block').attr('id');
+    var timeBlockId = $(this).parent().attr('id');
 
   // Get the user input from the textarea
-    var userInput = $('textarea').val();
+    var userInput = $(this).siblings('textarea').val();
 
   // Save the user input in local storage with the time block id as the key
     localStorage.setItem(timeBlockId, userInput);
