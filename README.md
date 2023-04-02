@@ -2,7 +2,7 @@
 
 ## Deployment URL
 
-url:
+url: https://austingrech.github.io/Business-Day-Scheduler/
 
 ## Mock Up
 
